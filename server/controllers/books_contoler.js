@@ -11,7 +11,7 @@ module.exports = {
         });
         id++
         console.log('books', books);
-        res.json(books)
+        res.status(200).json(books)
     }
 
     //delete(req, res) {
