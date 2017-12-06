@@ -1,0 +1,23 @@
+{
+  "name": "introduction",
+  "version": "1.0.0",
+  "description": "Intro to Node for Devmountain",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcb1978/node-introduction.git"
+  },
+  "author": "Matthew Eldredge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcb1978/node-introduction/issues"
+  },
+  "homepage": "https://github.com/tcb1978/node-introduction#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
